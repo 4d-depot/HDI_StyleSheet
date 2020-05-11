@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="" uuid="1194009FAAEF4A3FB143B30F02A27E3D" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Samples" uuid="DB9618A6FCEA4AE6A28551939E52143C" id="1">
+		<field name="ID" uuid="7ACBB98C9ED84A1CBC3A3A79EA45811D" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Text" uuid="6689AA03B5634A37A927DA69C6CF4D7F" type="10" never_null="true" id="2"/>
+		<field name="Title" uuid="D257A90903824FE18528A3B597D96B52" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="SampleSort" uuid="0CA66A2A2264485788EB333ED2B728A2" type="3" never_null="true" id="4"/>
+		<primary_key field_name="ID" field_uuid="7ACBB98C9ED84A1CBC3A3A79EA45811D"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="20.4453125" top="26.25" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="User" uuid="2B3867941C0A420789DAD31E37091C11" id="2">
+		<field name="ID" uuid="56EBDE09F4264EC38A88C92DE733A7E4" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Firstname" uuid="953A83081D324EA2B6C1D728F914E7C2" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Lastname" uuid="B75B1ED7C3284D158490A1F5B570B4E5" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Birthdate" uuid="9569D53CD8274D6798113D0ED1EEE231" type="8" never_null="true" id="4"/>
+		<primary_key field_name="ID" field_uuid="56EBDE09F4264EC38A88C92DE733A7E4"/>
+		<table_extra output_form="Output" input_form="Input">
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="276.1171875" top="63.92578125" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="A7451CE9C6E54713AA77CDA31AB7335C" type="7">
+		<field_ref uuid="7ACBB98C9ED84A1CBC3A3A79EA45811D" name="ID">
+			<table_ref uuid="DB9618A6FCEA4AE6A28551939E52143C" name="Samples"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="F650A0E757C6491DBFD6F6916476DBEC" type="7">
+		<field_ref uuid="56EBDE09F4264EC38A88C92DE733A7E4" name="ID">
+			<table_ref uuid="2B3867941C0A420789DAD31E37091C11" name="User"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0" package_name="HDI_FileManager" structure_file_name="HDI_FileManager" data_file_path=":HDI_FileManager.4DD">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

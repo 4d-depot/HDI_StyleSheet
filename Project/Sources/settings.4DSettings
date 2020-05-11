@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="7">
+	<com.4d>
+		<deployment>
+			<options/>
+		</deployment>
+		<server>
+			<network>
+				<options use_legacy_network_layer="false"/>
+			</network>
+		</server>
+		<database>
+			<misc use_ast_interpreter="false"/>
+		</database>
+		<general startup_environnement="1"/>
+		<interface>
+			<user splash_screen="false"/>
+		</interface>
+	</com.4d>
+</preferences>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US">
+      <body>
+         <group resname="button_Name">
+            <trans-unit id="1_1" resname="button_Cancel">
+               <source>Cancel</source>
+               <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="1_2" resname="button_Validate">
+               <source>OK</source>
+               <target>OK</target>
+            </trans-unit>
+            <trans-unit id="1_3" resname="button_NextRecord">
+               <source>Next</source>
+               <target>Next</target>
+            </trans-unit>
+            <trans-unit id="1_4" resname="button_PreviousRecord">
+               <source>Previous</source>
+               <target>Previous</target>
+            </trans-unit>
+            <trans-unit id="1_5" resname="button_FirstRecord">
+               <source>First</source>
+               <target>First</target>
+            </trans-unit>
+            <trans-unit id="1_6" resname="button_LastRecord">
+               <source>Last</source>
+               <target>Last</target>
+            </trans-unit>
+            <trans-unit id="1_7" resname="button_DeleteRecord">
+               <source>Delete</source>
+               <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="1_12" resname="button_EditRecord">
+               <source>Edit</source>
+               <target>Edit</target>
+            </trans-unit>
+            <trans-unit id="1_14" resname="button_AddRecord">
+               <source>Add</source>
+               <target>Add</target>
+            </trans-unit>
+         </group>
+         <group resname="button_TipName">
+             <trans-unit id="2_1" resname="button_tip_Cancel">
+               <source>Cancel</source>
+               <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="2_2" resname="button_tip_Validate">
+               <source>Accept</source>
+               <target>Accept</target>
+            </trans-unit>
+            <trans-unit id="2_3" resname="button_tip_NextRecord">
+               <source>Next record</source>
+               <target>Next record</target>
+            </trans-unit>
+            <trans-unit id="2_4" resname="button_tip_PreviousRecord">
+               <source>Previous record</source>
+               <target>Previous record</target>
+            </trans-unit>
+            <trans-unit id="2_5" resname="button_tip_FirstRecord">
+               <source>First record</source>
+               <target>First record</target>
+            </trans-unit>
+            <trans-unit id="2_6" resname="button_tip_LastRecord">
+               <source>Last record</source>
+               <target>Last record</target>
+            </trans-unit>
+            <trans-unit id="2_7" resname="button_tip_DeleteRecord">
+               <source>Delete record</source>
+               <target>Delete record</target>
+            </trans-unit>
+            <trans-unit id="2_12" resname="button_tip_EditRecord">
+               <source>Edit record</source>
+               <target>Edit record</target>
+            </trans-unit>
+            <trans-unit id="2_24" resname="button_tip_AddRecord">
+               <source>Add a new record</source>
+               <target>Add a new record</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

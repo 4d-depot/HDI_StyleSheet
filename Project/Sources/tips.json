@@ -1,0 +1,20 @@
+﻿{
+	"First Record": "First Record",
+	"Previous Record": "Previous Record",
+	"Next Record": "Next Record",
+	"Last Record": "Last Record",
+	"Delete Record": "Delete Record",
+	"Cancel": "Cancel",
+	"OK": "Accept",
+	"Record Number": "Record Position within Selection",
+	"Add Record": "Add a New Record",
+	"Delete Selectio": "Delete Highlighted Records",
+	"Show All": "Select All Records",
+	"Show Subset": "Select Highlighted Records",
+	"Query": "Query",
+	"Order By": "Order by",
+	"Report": "Quick Reports",
+	"Print Labels": "Print Labels",
+	"Print Selection": "Print",
+	"Done": "Done"
+}

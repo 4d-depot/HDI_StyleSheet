@@ -1,0 +1,197 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"btnPrevRecord": {
+					"type": "button",
+					"text": "<",
+					"top": 20,
+					"left": 100,
+					"width": 60,
+					"height": 60,
+					"events": [
+						"onClick"
+					],
+					"action": "previousRecord",
+					"class": "buttonAction"
+				},
+				"btnNextRecord": {
+					"type": "button",
+					"top": 20,
+					"left": 180,
+					"width": 60,
+					"height": 60,
+					"events": [
+						"onClick"
+					],
+					"action": "nextRecord",
+					"class": "buttonAction",
+					"text": ">"
+				},
+				"btnDelete": {
+					"type": "button",
+					"text": "-",
+					"top": 20,
+					"left": 340,
+					"width": 60,
+					"height": 60,
+					"events": [
+						"onClick"
+					],
+					"action": "deleteRecord",
+					"class": "buttonAction"
+				},
+				"btnValidate": {
+					"type": "button",
+					"text": "x",
+					"top": 20,
+					"left": 420,
+					"width": 60,
+					"height": 60,
+					"events": [
+						"onClick"
+					],
+					"action": "cancel",
+					"class": "buttonAction"
+				},
+				"Button4": {
+					"type": "button",
+					"text": "ok",
+					"top": 20,
+					"left": 500,
+					"width": 60,
+					"height": 60,
+					"events": [
+						"onClick"
+					],
+					"action": "accept",
+					"class": "buttonAction"
+				},
+				"Line": {
+					"type": "line",
+					"top": 100,
+					"left": 20,
+					"width": 540,
+					"height": 0,
+					"startPoint": "topLeft",
+					"sizingX": "grow",
+					"class": "separator"
+				},
+				"btnFirst": {
+					"type": "button",
+					"text": "<<",
+					"top": 20,
+					"left": 20,
+					"width": 60,
+					"height": 60,
+					"events": [
+						"onClick"
+					],
+					"action": "firstRecord",
+					"class": "buttonAction"
+				},
+				"btnLast": {
+					"type": "button",
+					"top": 20,
+					"left": 260,
+					"width": 60,
+					"height": 60,
+					"events": [
+						"onClick"
+					],
+					"action": "lastRecord",
+					"class": "buttonAction",
+					"text": ">>"
+				}
+			}
+		},
+		{
+			"objects": {
+				"label_ID": {
+					"type": "text",
+					"text": "ID:",
+					"top": 140,
+					"left": 20,
+					"width": 200,
+					"height": 17,
+					"class": "labelInput"
+				},
+				"field_ID": {
+					"type": "input",
+					"dataSource": "[User:2]ID:1",
+					"top": 140,
+					"left": 230,
+					"width": 330,
+					"height": 17,
+					"sizingX": "grow",
+					"class": "pkField"
+				},
+				"label_Fistname": {
+					"type": "text",
+					"text": "Fistname:",
+					"top": 170,
+					"left": 20,
+					"width": 200,
+					"height": 17,
+					"class": "labelInput"
+				},
+				"field_Fistname": {
+					"type": "input",
+					"dataSource": "[User:2]Fistname:2",
+					"top": 170,
+					"left": 230,
+					"width": 330,
+					"height": 17,
+					"sizingX": "grow"
+				},
+				"label_Lastname": {
+					"type": "text",
+					"text": "Lastname:",
+					"top": 200,
+					"left": 20,
+					"width": 200,
+					"height": 17,
+					"class": "labelInput"
+				},
+				"field_Lastname": {
+					"type": "input",
+					"dataSource": "[User:2]Lastname:3",
+					"top": 200,
+					"left": 230,
+					"width": 330,
+					"height": 17,
+					"sizingX": "grow"
+				},
+				"label_Birthdate": {
+					"type": "text",
+					"text": "Birthdate:",
+					"top": 230,
+					"left": 20,
+					"width": 200,
+					"height": 17,
+					"class": "labelInput"
+				},
+				"field_Birthdate": {
+					"type": "input",
+					"dataSource": "[User:2]Birthdate:4",
+					"top": 230,
+					"left": 230,
+					"width": 330,
+					"height": 17,
+					"sizingX": "grow"
+				}
+			}
+		}
+	]
+}

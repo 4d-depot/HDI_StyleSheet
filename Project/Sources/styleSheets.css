@@ -1,0 +1,132 @@
+
+/* Style sheet used in page 2 of the HDI */
+
+/* Example with object type */
+radio {
+  stroke: red;
+}
+
+/* Example with object name */
+#CheckBox36 {
+  fontStyle: italic;
+}
+
+/* Example with class */
+.warning {
+  stroke: orange;
+}
+
+/* Example with attribute */
+text[text=Hello]
+{
+  fontWeight: bold;
+}
+
+/**********************************/
+/* Style sheet used in page 2 of the HDI */
+
+/* To configure button with the "buttonAction" class*/
+.buttonAction {
+  iconFrames: 4;
+  style: toolbar;
+  stroke: #808080;
+  focusable: false;
+}
+
+/* Buttons with buttonAction class and the "editSubrecord" action attribute */
+.buttonAction[action=editSubrecord] {
+  icon: url("/RESOURCES/Images/Buttons/edit.png");
+  tooltip: ":xliff:button_tip_EditRecord";
+  text: ":xliff:button_EditRecord" !important;
+}
+
+/* Buttons with buttonAction class and the "addSubrecord" action attribute */
+.buttonAction[action=addSubrecord] {
+  icon: url("/RESOURCES/Images/Buttons/new.png");
+  tooltip: ":xliff:button_tip_AddRecord";
+  text: ":xliff:button_AddRecord" !important;
+}
+
+/* Buttons with buttonAction class and the "deleteSubrecord" and "deleteRecord" action attributes */
+.buttonAction[action=deleteSubrecord], .buttonAction[action=deleteRecord] {
+  icon: url("/RESOURCES/Images/Buttons/delete.png");
+  tooltip: ":xliff:button_tip_DeleteRecord";
+  text: ":xliff:button_DeleteRecord"  !important;
+}
+
+/* Buttons with buttonAction class and the "cancel" action attribute */
+.buttonAction[action=cancel] {
+  icon: url("/RESOURCES/Images/Buttons/cancel.png");
+  tooltip: ":xliff:button_tip_Cancel";
+  text: ":xliff:button_Cancel" !important;
+}
+
+/* Buttons with "buttonAction" class and the "accept" action attribute */
+.buttonAction[action=accept] {
+  icon: url("/RESOURCES/Images/Buttons/validate.png");
+  tooltip: ":xliff:button_tip_Validate";
+  text: ":xliff:button_Validate" !important;
+}
+
+/* Buttons with "buttonAction" class and the "previousRecord" action attribute */
+.buttonAction[action=previousRecord] {
+  icon: url("/RESOURCES/Images/Buttons/previous.png");
+  tooltip: ":xliff:button_tip_PreviousRecord";
+  text: ":xliff:button_PreviousRecord" !important;
+}
+
+/* Buttons with "buttonAction" class and the "nextRecord" action attribute */
+.buttonAction[action=nextRecord] {
+  icon: url("/RESOURCES/Images/Buttons/next.png");
+  tooltip: ":xliff:button_tip_NextRecord";
+  text: ":xliff:button_NextRecord" !important;
+}
+
+/* Buttons with "buttonAction" class and the "firstRecord" action attribute */
+.buttonAction[action=firstRecord] {
+  icon: url("/RESOURCES/Images/Buttons/first.png");
+  tooltip: ":xliff:button_tip_FirstRecord";
+  text: ":xliff:button_FirstRecord" !important;
+}
+
+/* Buttons with "buttonAction" class and the "lastRecord" action attribute */
+.buttonAction[action=lastRecord] {
+  icon: url("/RESOURCES/Images/Buttons/last.png");
+  tooltip: ":xliff:button_tip_LastRecord";
+  text: ":xliff:button_LastRecord" !important;
+}
+
+/* All listboxes of current selection type*/
+listbox[listboxType=currentSelection] {
+  selectionMode: single;
+  doubleClickInRowAction: editSubrecord;
+  highlightSet: $ListboxSet;
+  hideFocusRing: true;
+  headerHeight: 2em;
+  hideExtraBlankRows: true;
+  alternateFill: #f2f2f2;
+}
+
+.labelOutput {
+  fontWeight: bold;
+  textAlign: center;
+}
+
+.inputOutput {
+  fill: transparent;
+  borderStyle: none;
+}
+
+.pkField {
+  enterable: false;
+  fill: transparent;
+}
+
+.labelInput {
+  textAlign: right;
+}
+
+.separator {
+  borderStyle: solid;
+  stroke: #808080;
+}

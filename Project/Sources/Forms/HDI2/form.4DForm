@@ -1,0 +1,398 @@
+﻿{
+	"destination": "detailScreen",
+	"windowMinWidth": 930,
+	"windowMinHeight": 720,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"TabControl": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 890,
+					"height": 680,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "TabControl",
+					"dataSourceTypeHint": "arrayText",
+					"action": "GotoPage",
+					"events": [
+						"onClick"
+					],
+					"bottom": 700
+				}
+			}
+		},
+		{
+			"objects": {
+				"Field": {
+					"type": "input",
+					"top": 80,
+					"left": 40,
+					"width": 850,
+					"height": 593,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "TextTabControl{1}",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"multiline": "yes",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					],
+					"class": "default"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Field1": {
+					"type": "input",
+					"top": 80,
+					"left": 40,
+					"width": 572,
+					"height": 593,
+					"sizingX": "fixed",
+					"sizingY": "grow",
+					"dataSource": "TextTabControl{2}",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"multiline": "yes",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					],
+					"class": "default"
+				},
+				"CheckBox36": {
+					"type": "checkbox",
+					"text": "Checkbox named \"CheckBox36\"",
+					"top": 318,
+					"left": 620,
+					"width": 250,
+					"height": 18,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed"
+				},
+				"Button3": {
+					"type": "button",
+					"text": "Button with \"warning\" class",
+					"top": 440,
+					"left": 620,
+					"width": 250,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"class": "warning",
+					"action": "",
+					"sizingX": "fixed"
+				},
+				"Button4": {
+					"type": "button",
+					"text": "Button without class",
+					"top": 473,
+					"left": 620,
+					"width": 250,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"class": "",
+					"sizingX": "fixed"
+				},
+				"Text": {
+					"type": "text",
+					"text": "Hello",
+					"top": 565,
+					"left": 620,
+					"width": 250,
+					"height": 16,
+					"sizingX": "fixed"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Bye-Bye",
+					"top": 601,
+					"left": 620,
+					"width": 250,
+					"height": 16,
+					"sizingX": "fixed"
+				},
+				"CheckBox1": {
+					"type": "checkbox",
+					"text": "Checkbox named \"CheckBox1\"",
+					"top": 349,
+					"left": 620,
+					"width": 250,
+					"height": 18,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed"
+				},
+				"Radio Button": {
+					"type": "radio",
+					"text": "Radio1",
+					"top": 177,
+					"left": 620,
+					"width": 250,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed"
+				},
+				"Radio Button1": {
+					"type": "radio",
+					"text": "Radio2",
+					"top": 208,
+					"left": 620,
+					"width": 250,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "fixed"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 532,
+					"left": 147,
+					"width": 279,
+					"height": 144,
+					"fill": "#027D9A",
+					"right": 426,
+					"stroke": "transparent"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 532,
+					"left": 541,
+					"width": 278,
+					"height": 144,
+					"fill": "#027D9A",
+					"right": 819,
+					"stroke": "transparent"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 275,
+					"left": 541,
+					"width": 278,
+					"height": 218,
+					"fill": "#027D9A",
+					"right": 819,
+					"stroke": "transparent"
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 275,
+					"left": 147,
+					"width": 279,
+					"height": 218,
+					"fill": "#027D9A",
+					"right": 426,
+					"stroke": "transparent"
+				},
+				"Static Picture5": {
+					"type": "picture",
+					"top": 286,
+					"left": 551,
+					"width": 259,
+					"height": 197,
+					"picture": "Images/output_runtime.png",
+					"pictureFormat": "scaled"
+				},
+				"Static Picture6": {
+					"type": "picture",
+					"top": 543,
+					"left": 551,
+					"width": 259,
+					"height": 122,
+					"picture": "Images/input_runtime2.png",
+					"pictureFormat": "scaled"
+				},
+				"Static Picture7": {
+					"type": "picture",
+					"top": 286,
+					"left": 157,
+					"width": 259,
+					"height": 197,
+					"picture": "Images/output_design.png",
+					"pictureFormat": "scaled"
+				},
+				"Static Picture2": {
+					"type": "picture",
+					"top": 543,
+					"left": 157,
+					"width": 259,
+					"height": 122,
+					"picture": "Images/input_design.png",
+					"pictureFormat": "scaled"
+				},
+				"Field2": {
+					"type": "input",
+					"top": 80,
+					"left": 40,
+					"width": 629,
+					"height": 113,
+					"sizingX": "grow",
+					"sizingY": "fixed",
+					"dataSource": "TextTabControl{3}",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"multiline": "yes",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					],
+					"class": "default"
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Without style sheet",
+					"top": 234,
+					"left": 189,
+					"width": 186,
+					"height": 21,
+					"fontWeight": "bold",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 18
+				},
+				"Text3": {
+					"type": "text",
+					"text": "With style sheet",
+					"top": 234,
+					"left": 603,
+					"width": 159,
+					"height": 21,
+					"fontWeight": "bold",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 18
+				},
+				"Text4": {
+					"type": "text",
+					"text": "List form",
+					"top": 296,
+					"left": 110,
+					"width": 16,
+					"height": 113,
+					"fontWeight": "bold",
+					"textAlign": "center",
+					"textAngle": 270,
+					"fontFamily": "Arial",
+					"fontSize": 18
+				},
+				"Text5": {
+					"type": "text",
+					"text": "Detail form",
+					"top": 538,
+					"left": 110,
+					"width": 18,
+					"height": 108,
+					"fontWeight": "bold",
+					"textAlign": "center",
+					"textAngle": 270,
+					"fontFamily": "Arial",
+					"fontSize": 18
+				},
+				"Static Picture1": {
+					"type": "picture",
+					"top": 334,
+					"left": 456,
+					"width": 55,
+					"height": 67,
+					"picture": "Images/arrow.png",
+					"pictureFormat": "scaled"
+				},
+				"Static Picture3": {
+					"type": "picture",
+					"top": 563,
+					"left": 456,
+					"width": 55,
+					"height": 67,
+					"picture": "Images/arrow.png",
+					"pictureFormat": "scaled"
+				},
+				"Button5": {
+					"type": "button",
+					"text": "Open list form",
+					"top": 98,
+					"left": 700,
+					"width": 185,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button5.4dm",
+					"defaultButton": true,
+					"sizingX": "move"
+				},
+				"Button6": {
+					"type": "button",
+					"text": "Open Style sheet file",
+					"top": 135,
+					"left": 700,
+					"width": 185,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button6.4dm",
+					"sizingX": "move"
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"editor": {
+		"groups": {
+			"Group": [
+				"Radio Button",
+				"Radio Button1"
+			]
+		}
+	}
+}
